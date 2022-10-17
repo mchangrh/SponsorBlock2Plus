@@ -1,0 +1,24 @@
+{
+    "name": "SponsorBlock 2 Plus",
+    "description": "Web Scale Joke",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "icons": {
+      "16": "icons/16.png",
+      "48": "icons/48.png",
+      "128": "icons/128.png"
+    },
+    "content_scripts": [
+      {
+        "run_at": "document_end",
+        "matches": ["*://*.youtube.com/*"],
+        "js": ["src/content.js"]
+      }
+    ],
+    "action": {
+      "default_icon": "icons/128.png",
+      "default_popup": "src/popup.html",
+      "default_title": "SponsorBlock 2 Plus"
+    },
+    "options_page": "src/options.html"
+}

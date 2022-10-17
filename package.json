@@ -1,0 +1,16 @@
+{
+  "name": "sponsorblock2plus",
+  "version": "1.0.0",
+  "description": "Web Scale Joke",
+  "main": "src/content.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mchangrh/SponsorBlock2Plus.git"
+  },
+  "author": "Michael Chang <michael@mchang.name>",
+  "license": "LGPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/mchangrh/SponsorBlock2Plus/issues"
+  },
+  "homepage": "https://github.com/mchangrh/SponsorBlock2Plus#readme"
+}
